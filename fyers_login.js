@@ -92,7 +92,7 @@ function exitIndividualPositions(posId, profit, loss,i){
     }
 
 async function Tutor() {
-   for (let i = 1; i <=20*2 ; i++) {
+   for (let i = 1; i <=60*2 ; i++) {
        await sleep(1000);
        exitAllPositions(profit, loss,i);
      //  if(isEmpty(getOpenPositions())){
