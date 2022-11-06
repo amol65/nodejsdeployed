@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "fyers-api-v2": "^1.0.3",
+    "prompt-sync": "^4.2.0"
+  }
+}
