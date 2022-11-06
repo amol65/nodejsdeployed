@@ -95,10 +95,10 @@ async function Tutor() {
    for (let i = 1; i <=20*2 ; i++) {
        await sleep(1000);
        exitAllPositions(profit, loss,i);
-       if(isEmpty(getOpenPositions())){
-           console.log("All positions are closed: ");
-           break;
-       }
+     //  if(isEmpty(getOpenPositions())){
+      //     console.log("All positions are closed: ");
+       //    break;
+     //  }
 //       exitIndividualPositions(posId,profit,loss,i);
    }
 }
